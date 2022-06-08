@@ -14,7 +14,7 @@ def main():
 #* Para ello le damos en Run and debug en la mariquita del lado
 #* izquierdo/Run and Debug/marcamos un BreakPoint, y ya podemos jugar
 #* con el Step over, Step Into y demás... y si le damos click derecho
-#* en el break Point/Edit Break Point podemos crear Expressions, Hi
+#* en el break Point/Edit Break Point podemos crear Expressions, Hit
 #* Count y Log Messages
 
     
