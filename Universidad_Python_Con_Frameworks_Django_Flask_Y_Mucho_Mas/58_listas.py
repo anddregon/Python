@@ -1,5 +1,5 @@
 def main():
-    #*Ponedemos tener listas con diferentes tipos de datos
+    #*Podemos tener listas con diferentes tipos de datos
     #*String, boleanos, enteros etc...
 
     #*Definimos una lista de tipo String
@@ -45,10 +45,48 @@ def main():
     else:
         print('NO existen más nombres en la lisa')
 
+    #*Preguntar el largo de una lista
+    print('\nNumero de elementos de la lista: ')
+    print(len(nombres))
 
+    #*Recordemos que "nombres" es la variable que apunta a la lista
+    #*Agregar un elemento:
 
+    nombre = input('Digite nombre para añadir a la lista: ')
+    nombres.append(nombre)
+    print(nombres)
 
+    #*Insertar un elemento en un indice especifico
+    nombre = input('Digite nombre para añadir a la lista: ')
+    indice = int(input('Digite indice en donde desea agregar nombre digitado: '))
+    nombres.insert(indice, nombre)
+    print(nombres)
 
+    #*Remover un elemento
+    nombre = input('Digite nombre a remover de la lista: ')
+    nombres.remove(nombre)
+    print(nombres)
+
+    #*Remover el ultimo valor agregado
+    print('Remover ultimo elemento:')
+    nombres.pop()
+    print(nombres)
+
+    #*Eliminar elemento en un indice indicado
+    indice = int(input('Digite indice del elemento a remover: '))
+    del nombres[indice]
+    print(nombres)
+
+    #* Limpiar la lista
+    print('Limpiar lista: ')
+    nombres.clear()
+    print(nombres)
+
+    #*Borrar la lista por completo
+    print('Borrar la lista por completo, lo cual da error al imprimir lista inexistente: ') 
+    del nombres
+    #* (Al hacer print mandará mensaje de error pues ya no existe)
+    print(nombres)
 
 
 if __name__ == '__main__':
