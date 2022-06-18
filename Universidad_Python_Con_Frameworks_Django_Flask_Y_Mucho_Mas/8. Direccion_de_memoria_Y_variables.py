@@ -25,6 +25,7 @@ def main():
     print(id(x))
     print(f'this is de memory address of the value of the variable y: ')
     print(id(y))
+    
     print(f'this is de memory address of the value of the variable z: ')
     print(id(z))
 
