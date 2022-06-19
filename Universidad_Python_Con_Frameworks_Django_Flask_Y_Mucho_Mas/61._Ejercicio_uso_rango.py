@@ -5,7 +5,12 @@ def main():
 
     #*Iterar un rango del 0 a 10 e imprimir números divisibles entre 3
     print('Números divisibles entre 3 del 0 al 10: ')
+
+    #*Recordemos que no se incluye el valor de fin
+    #*Por lo tanto sería el valor de fin - 1 o sea 0-10
     for i in range (11):
+        #*Operador modulo
+        #*Si el reciduo de la division entre i y 3 da 0 imprimalo
         if i % 3 == 0:
             print(i)
 
