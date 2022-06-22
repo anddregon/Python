@@ -43,8 +43,8 @@ def factorial(n):
     elif n == 0:
         return 1
     while (n > 1):
-        fact *= n
-        n -= 1
+        fact *= n #* fact = fact * n 
+        n -= 1 #* n =
     return fact
 
 
