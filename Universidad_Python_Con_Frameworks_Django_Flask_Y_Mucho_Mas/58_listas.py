@@ -1,8 +1,9 @@
 def main():
 
-    #* Las listas son estructuras de datos mutables/modificables
-    #*Podemos tener listas con diferentes tipos de datos
-    #*String, boleanos, enteros etc...
+    #*-> Las listas son estructuras de datos mutables/modificables
+    #*-> Podemos tener listas con diferentes tipos de datos:
+    #*   String, boleanos, enteros etc...
+    #*-> Se representan con []
 
     #*Definimos una lista de tipo String
     nombres = ['Juan','Karla','Ricardo','María']
