@@ -20,7 +20,7 @@ def main():
     # else:
     #     print('Valor desconocido')
 
-    #* Vamos a hacerlo con la sintaxis simplificada del operador AND
+    #*Vamos a hacerlo con la sintaxis simplificada del operador AND
     #*Se lee: Si la calificación es mayor o igual que 9 Y y la calificacion es
     #* menor o igual que 10
 

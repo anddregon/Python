@@ -52,7 +52,7 @@ def main():
     print('\nNumero de elementos de la lista: ')
     print(len(nombres))
 
-    #*Recordemos que "nombres" es la variable que apunta a la lista
+    #*Recordemos que "nombre" es la variable que apunta a la lista
     #*Agregar un elemento:
 
     nombre = input('Digite nombre para añadir a la lista: ')

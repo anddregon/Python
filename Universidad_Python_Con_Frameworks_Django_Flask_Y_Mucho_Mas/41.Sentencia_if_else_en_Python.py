@@ -1,3 +1,5 @@
+#Operador de asignación =
+#Operador de comparación ==
 def main():
 #Si en la condicion el valor es distinto de vacio guarda un True, por
 #ejemplo si introducimos un numero.

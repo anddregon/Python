@@ -12,7 +12,7 @@ def main():
     elif envio == 'False':
         envio = False
     else:
-        envio= 'Valor incorrecto, debe escribir True/False'
+        envio = 'Valor incorrecto, debe escribir True/False'
 
     print(f'''
     Nombre: {nombre}
@@ -20,12 +20,6 @@ def main():
     precio: {precio}
     envio: {envio}
     ''')
-
-    
-
-
-  
-    
 
 if __name__ == '__main__':
     main()
