@@ -6,7 +6,7 @@ suma = operando_a + operando_b
 print(f'El resultado de la suma es {suma}')
 
 resta = operando_a - operando_b
-print (f' El resultado de la suma es: {resta}')
+print (f' El resultado de la resta es: {resta}')
 
 mutiplicacion = operando_a * operando_b
 
